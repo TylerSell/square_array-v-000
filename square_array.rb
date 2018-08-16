@@ -1,3 +1,3 @@
 def square_array(array)
-  array.collect {
+  array.collect {|i| i ** 2}
 end
